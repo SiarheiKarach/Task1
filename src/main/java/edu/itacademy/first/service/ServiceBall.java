@@ -2,7 +2,7 @@ package edu.itacademy.first.service;
 
 import edu.itacademy.first.entity.Ball;
 
-public class serviceBall {
+public class ServiceBall {
     public double GetBallWeight(Ball[] balls) {
         double total = 0;
         for (int i = 0; i < balls.length ; i++) {

@@ -1,9 +1,9 @@
 package edu.itacademy.first.main;
 
 import edu.itacademy.first.entity.Ball;
-import edu.itacademy.first.service.serviceBall;
+import edu.itacademy.first.service.ServiceBall;
 
-class projectMain {
+class ProjectMain {
     public static void main(String[] args) {
         Ball ball = new Ball(2, "steel", "red", 5.2);
         ball.setRadius(3);
@@ -34,7 +34,7 @@ class projectMain {
         balls [2]= plasticBall;
 //        for (int i = 0; i < balls.length; i++) {
 //        System.out.println(balls[i]);}
-        serviceBall service = new serviceBall();
+        ServiceBall service = new ServiceBall();
         double result = service.GetBallWeight(balls);
         System.out.println("Total weight of balls is around "+ Math.round(result)+ "kg.");
 
